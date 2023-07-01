@@ -1,0 +1,900 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "banner",
+          "name": "banner",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "title",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "title": "content",
+              "name": "content",
+              "type": "string"
+            },
+            {
+              "title": "image",
+              "name": "image",
+              "type": "image"
+            },
+            {
+              "title": "button",
+              "name": "button",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "label",
+                  "name": "label",
+                  "type": "string"
+                },
+                {
+                  "title": "link",
+                  "name": "link",
+                  "type": "string"
+                },
+                {
+                  "title": "enable",
+                  "name": "enable",
+                  "type": "datetime"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "key_features",
+          "name": "key_features",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "title",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "title": "description",
+              "name": "description",
+              "type": "string"
+            },
+            {
+              "title": "feature_list",
+              "name": "feature_list",
+              "type": "block",
+              "fields": [
+                {
+                  "title": "0",
+                  "name": "0",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "1",
+                  "name": "1",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "2",
+                  "name": "2",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "3",
+                  "name": "3",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "4",
+                  "name": "4",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "5",
+                  "name": "5",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "6",
+                  "name": "6",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "7",
+                  "name": "7",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "8",
+                  "name": "8",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "9",
+                  "name": "9",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "icon",
+                      "name": "icon",
+                      "type": "string"
+                    },
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "service",
+          "name": "service",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "homepage_tab",
+              "name": "homepage_tab",
+              "type": "fields",
+              "fields": [
+                {
+                  "title": "title",
+                  "name": "title",
+                  "type": "string"
+                },
+                {
+                  "title": "description",
+                  "name": "description",
+                  "type": "string"
+                },
+                {
+                  "title": "tab_list",
+                  "name": "tab_list",
+                  "type": "block",
+                  "fields": [
+                    {
+                      "title": "0",
+                      "name": "0",
+                      "type": "fields",
+                      "fields": [
+                        {
+                          "title": "title",
+                          "name": "title",
+                          "type": "string"
+                        },
+                        {
+                          "title": "icon",
+                          "name": "icon",
+                          "type": "string"
+                        },
+                        {
+                          "title": "image",
+                          "name": "image",
+                          "type": "image"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "1",
+                      "name": "1",
+                      "type": "fields",
+                      "fields": [
+                        {
+                          "title": "title",
+                          "name": "title",
+                          "type": "string"
+                        },
+                        {
+                          "title": "icon",
+                          "name": "icon",
+                          "type": "string"
+                        },
+                        {
+                          "title": "image",
+                          "name": "image",
+                          "type": "image"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "2",
+                      "name": "2",
+                      "type": "fields",
+                      "fields": [
+                        {
+                          "title": "title",
+                          "name": "title",
+                          "type": "string"
+                        },
+                        {
+                          "title": "icon",
+                          "name": "icon",
+                          "type": "string"
+                        },
+                        {
+                          "title": "image",
+                          "name": "image",
+                          "type": "image"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "our_service",
+              "name": "our_service",
+              "type": "block",
+              "fields": [
+                {
+                  "title": "0",
+                  "name": "0",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "desctiption",
+                      "name": "desctiption",
+                      "type": "string"
+                    },
+                    {
+                      "title": "image",
+                      "name": "image",
+                      "type": "image"
+                    },
+                    {
+                      "title": "list",
+                      "name": "list",
+                      "type": "choice",
+                      "choices": [
+                        "Supporting more than 119 country world",
+                        "Open transaction with more than currencies",
+                        "Customer Service with 79 languages"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "title": "1",
+                  "name": "1",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "title",
+                      "name": "title",
+                      "type": "string"
+                    },
+                    {
+                      "title": "description",
+                      "name": "description",
+                      "type": "string"
+                    },
+                    {
+                      "title": "video",
+                      "name": "video",
+                      "type": "fields",
+                      "fields": [
+                        {
+                          "title": "thumbnail",
+                          "name": "thumbnail",
+                          "type": "string"
+                        },
+                        {
+                          "title": "video_id",
+                          "name": "video_id",
+                          "type": "string"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "button",
+                      "name": "button",
+                      "type": "fields",
+                      "fields": [
+                        {
+                          "title": "label",
+                          "name": "label",
+                          "type": "string"
+                        },
+                        {
+                          "title": "link",
+                          "name": "link",
+                          "type": "string"
+                        },
+                        {
+                          "title": "enable",
+                          "name": "enable",
+                          "type": "datetime"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "testimonial",
+          "name": "testimonial",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "title",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "title": "description",
+              "name": "description",
+              "type": "string"
+            },
+            {
+              "title": "testimonial_list",
+              "name": "testimonial_list",
+              "type": "block",
+              "fields": [
+                {
+                  "title": "0",
+                  "name": "0",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "author",
+                      "name": "author",
+                      "type": "string"
+                    },
+                    {
+                      "title": "avatar",
+                      "name": "avatar",
+                      "type": "string"
+                    },
+                    {
+                      "title": "organization",
+                      "name": "organization",
+                      "type": "string"
+                    },
+                    {
+                      "title": "rating",
+                      "name": "rating",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "1",
+                  "name": "1",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "author",
+                      "name": "author",
+                      "type": "string"
+                    },
+                    {
+                      "title": "avatar",
+                      "name": "avatar",
+                      "type": "string"
+                    },
+                    {
+                      "title": "organization",
+                      "name": "organization",
+                      "type": "string"
+                    },
+                    {
+                      "title": "rating",
+                      "name": "rating",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "2",
+                  "name": "2",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "author",
+                      "name": "author",
+                      "type": "string"
+                    },
+                    {
+                      "title": "avatar",
+                      "name": "avatar",
+                      "type": "string"
+                    },
+                    {
+                      "title": "organization",
+                      "name": "organization",
+                      "type": "string"
+                    },
+                    {
+                      "title": "rating",
+                      "name": "rating",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "3",
+                  "name": "3",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "author",
+                      "name": "author",
+                      "type": "string"
+                    },
+                    {
+                      "title": "avatar",
+                      "name": "avatar",
+                      "type": "string"
+                    },
+                    {
+                      "title": "organization",
+                      "name": "organization",
+                      "type": "string"
+                    },
+                    {
+                      "title": "rating",
+                      "name": "rating",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "4",
+                  "name": "4",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "author",
+                      "name": "author",
+                      "type": "string"
+                    },
+                    {
+                      "title": "avatar",
+                      "name": "avatar",
+                      "type": "string"
+                    },
+                    {
+                      "title": "organization",
+                      "name": "organization",
+                      "type": "string"
+                    },
+                    {
+                      "title": "rating",
+                      "name": "rating",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "5",
+                  "name": "5",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "author",
+                      "name": "author",
+                      "type": "string"
+                    },
+                    {
+                      "title": "avatar",
+                      "name": "avatar",
+                      "type": "string"
+                    },
+                    {
+                      "title": "organization",
+                      "name": "organization",
+                      "type": "string"
+                    },
+                    {
+                      "title": "rating",
+                      "name": "rating",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "6",
+                  "name": "6",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "author",
+                      "name": "author",
+                      "type": "string"
+                    },
+                    {
+                      "title": "avatar",
+                      "name": "avatar",
+                      "type": "string"
+                    },
+                    {
+                      "title": "organization",
+                      "name": "organization",
+                      "type": "string"
+                    },
+                    {
+                      "title": "rating",
+                      "name": "rating",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "7",
+                  "name": "7",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "author",
+                      "name": "author",
+                      "type": "string"
+                    },
+                    {
+                      "title": "avatar",
+                      "name": "avatar",
+                      "type": "string"
+                    },
+                    {
+                      "title": "organization",
+                      "name": "organization",
+                      "type": "string"
+                    },
+                    {
+                      "title": "rating",
+                      "name": "rating",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                },
+                {
+                  "title": "8",
+                  "name": "8",
+                  "type": "fields",
+                  "fields": [
+                    {
+                      "title": "author",
+                      "name": "author",
+                      "type": "string"
+                    },
+                    {
+                      "title": "avatar",
+                      "name": "avatar",
+                      "type": "string"
+                    },
+                    {
+                      "title": "organization",
+                      "name": "organization",
+                      "type": "string"
+                    },
+                    {
+                      "title": "rating",
+                      "name": "rating",
+                      "type": "string"
+                    },
+                    {
+                      "title": "content",
+                      "name": "content",
+                      "type": "string"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "astro",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.preview.host": "http://localhost:3000",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "about",
+      "path": "[[workspace]]/src/content/about"
+    },
+    {
+      "title": "blog",
+      "path": "[[workspace]]/src/content/blog"
+    },
+    {
+      "title": "careers",
+      "path": "[[workspace]]/src/content/careers"
+    },
+    {
+      "title": "contact",
+      "path": "[[workspace]]/src/content/contact"
+    },
+    {
+      "title": "features",
+      "path": "[[workspace]]/src/content/features"
+    },
+    {
+      "title": "homepage",
+      "path": "[[workspace]]/src/content/homepage"
+    },
+    {
+      "title": "how-it-works",
+      "path": "[[workspace]]/src/content/how-it-works"
+    },
+    {
+      "title": "pages",
+      "path": "[[workspace]]/src/content/pages"
+    },
+    {
+      "title": "integrations",
+      "path": "[[workspace]]/src/content/integrations"
+    },
+    {
+      "title": "pricing",
+      "path": "[[workspace]]/src/content/pricing"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": [
+    "design",
+    "designer",
+    "developer",
+    "development",
+    "email marketing",
+    "marketing",
+    "productivity",
+    "rate optimization",
+    "social media",
+    "streaming",
+    "updates"
+  ]
+}
